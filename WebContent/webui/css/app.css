@@ -1,0 +1,210 @@
+/*** Menu *****/
+body {
+  font-size: .75rem;
+}
+
+.feather {
+  width: 16px;
+  height: 16px;
+  vertical-align: text-bottom;
+}
+
+.input-group-sm>.custom-select, .input-group-sm>.form-control, .input-group-sm>.input-group-append>.btn, .input-group-sm>.input-group-append>.input-group-text, .input-group-sm>.input-group-prepend>.btn, .input-group-sm>.input-group-prepend>.input-group-text {
+    font-size: .75rem;
+ }
+.input-group-sm{
+   padding-top:5px;
+  padding-bottpm:5px;	
+}
+
+/*
+ * Sidebar
+ */
+
+.sidebar {
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  z-index: 100; /* Behind the navbar */
+  padding: 48px 0 0; /* Height of navbar */
+  box-shadow: inset -1px 0 0 rgba(0, 0, 0, .1);
+}
+
+@media (max-width: 767.98px) {
+  .sidebar {
+    top: 5rem;
+  }
+}
+
+.sidebar-sticky {
+  position: relative;
+  top: 0;
+  height: calc(100vh - 48px);
+  padding-top: .5rem;
+  overflow-x: hidden;
+  overflow-y: auto; /* Scrollable contents if viewport is shorter than content. */
+}
+
+@supports ((position: -webkit-sticky) or (position: sticky)) {
+  .sidebar-sticky {
+    position: -webkit-sticky;
+    position: sticky;
+  }
+}
+
+.sidebar .nav-link {
+  font-weight: 500;
+  color: #333;
+}
+
+.sidebar .nav-link .feather {
+  margin-right: 4px;
+  color: #999;
+}
+
+.sidebar .nav-link.active {
+  color: #007bff;
+}
+
+.sidebar .nav-link:hover .feather,
+.sidebar .nav-link.active .feather {
+  color: inherit;
+}
+
+.sidebar-heading {
+  font-size: .80rem;
+  text-transform: uppercase;
+}
+
+/*
+ * Navbar
+ */
+
+.navbar-brand {
+  padding-top: .015rem;
+  padding-bottom: .015rem;
+  font-size: 1rem;
+  background-color: rgba(0, 0, 0, .25);
+  box-shadow: inset -1px 0 0 rgba(0, 0, 0, .25);
+}
+
+.navbar .navbar-toggler {
+  top: .25rem;
+  right: 1rem;
+}
+
+.navbar .form-control {
+  padding: .75rem 1rem;
+  border-width: 0;
+  border-radius: 0;
+}
+
+.form-control-dark {
+  color: #fff;
+  background-color: rgba(255, 255, 255, .1);
+  border-color: rgba(255, 255, 255, .1);
+}
+
+.form-control-dark:focus {
+  border-color: transparent;
+  box-shadow: 0 0 0 3px rgba(255, 255, 255, .25);
+}
+
+.pb-2, .py-2 {
+    padding-bottom: .0rem!important;
+}
+
+/*** Grid ****/
+.groupsGrid {
+    width: 100%;
+    height: 460px;
+  }
+ 
+ .resultsGrid {
+    width: 100%;
+    height: 460px;
+  }
+ 
+ .batchStatusGrid {
+    width: 100%;
+    height: 460px;
+  }
+  
+ .ui-grid-header-cell-row{
+    font-size: 12px;
+    background-color: darkcyan;
+    color: white;}
+ body{font-size:0.75rem;}
+ 
+.ui-grid-viewport .ui-grid-cell-contents {
+  word-wrap: break-word;
+  white-space: normal !important;
+}
+
+.ui-grid-row, .ui-grid-cell {
+  height: auto !important;
+}
+
+.ui-grid-row div[role=row] {
+  display: flex ;
+  align-content: stretch;
+}
+
+.group{
+    background-color: #fff;
+    padding: 5px;
+    border-radius: 5px;
+    border: solid 1px #666;
+}
+
+.group-conditions{
+    margin-left: 15px;
+}
+
+.alert-group{
+    margin-top: 5px;
+    margin-bottom: 5px;
+    border-color: rgb(192, 152, 83);
+    border-color: rgb(251, 238, 213);
+    border-color: rgb(220, 200, 150);
+}
+
+.condition, .group{
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+.input-group-text{font-weight:bold;}
+
+.btn-group-sm>.btn, .btn-sm {
+    font-size: .65rem;
+}
+
+.input-sm {
+    font-size: .65rem;
+    padding:3px;
+    height:26px;
+}
+
+ .modal-dialog{
+    position: relative;
+    display: table; /* This is important */ 
+    overflow-y: auto;    
+    overflow-x: auto;
+    width: auto;
+    min-width: 150px;   
+}
+
+ .modal-dialog ul { background: #F2F3F4 ; }
+ .modal-dialog ul:nth-child(odd) { background: #E5E8E8; }
+
+
+ .ui-grid-header-cell .ui-grid-cell-contents {
+     height: 48px;
+     white-space: normal;
+     -ms-text-overflow: clip;
+     -o-text-overflow: clip;
+     text-overflow: clip;
+     overflow: visible;
+}
