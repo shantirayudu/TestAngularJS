@@ -10,7 +10,7 @@ public class test {
  	@SuppressWarnings("unused")
 	public static void main(String[] args) {
 
-	/*try {  Test: Srini
+	/*try {  Test:
 		dao DAO=new dao();
 		System.out.println("Here");
 		ArrayList<Dto> DTO2 = DAO.getData();
