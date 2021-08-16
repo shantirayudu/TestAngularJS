@@ -32,7 +32,7 @@ public class AJSController {
 	
 	@RequestMapping(value = "/getData", method = RequestMethod.GET)
 	public ModelAndView showDisplay() {
-	    return new ModelAndView("getData");
+	    return new ModelAndView("getDatas");
 	}
 	    @RequestMapping(path="/getGroups" ,method = RequestMethod.GET,
                 produces = MediaType.APPLICATION_JSON_VALUE)
